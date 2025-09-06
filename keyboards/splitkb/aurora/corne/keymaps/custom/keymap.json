@@ -1,6 +1,6 @@
 {
     "keyboard": "splitkb/aurora/corne/rev1",
-    "keymap": "default",
+    "keymap": "custom",
     "version": 1,
     "layout": "LAYOUT_split_3x6_3",
     "layers": [
@@ -32,18 +32,12 @@
     ],
     "config": {
         "features": {
-            "oled": true,
-            "rgb_matrix": true,
+            "oled": false,
+            "rgb_matrix": false,
             "rgblight": false
         },
         "encoder": {
-            "enabled": true
-        },
-        "rgblight": {
-            "hue_steps": 8,
-            "saturation_steps": 8,
-            "brightness_steps": 8,
-            "sleep": true
+            "enabled": false
         }
     }
 }
